@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "actionstatistics",
+  "version": "${version}",
+  "name": "ActionStatistics",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Admin/ActionStatistics"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/actionstatistics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.karn.actionstatistics.ActionStatistics"
+    ]
+  },
+  "mixins": [
+    "actionstatistics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
